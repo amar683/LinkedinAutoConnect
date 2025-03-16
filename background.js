@@ -1,0 +1,1 @@
+// Required for Manifest V3 even if empty

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Connector</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>LinkedIn Connector</h1>
+    <div class="input-group">
+      <label for="searchQuery">Search Query:</label>
+      <input type="text" id="searchQuery" placeholder="Software Engineer">
+    </div>
+    <div class="input-group">
+      <label for="maxPages">Max Pages:</label>
+      <input type="number" id="maxPages" value="3" min="1" max="10">
+    </div>
+    <button id="startButton">Start Connecting</button>
+    <div id="status">Status: Idle</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
